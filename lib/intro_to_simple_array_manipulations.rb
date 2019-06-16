@@ -23,10 +23,10 @@ def shift_with_args(arr, x)
 end
 
 def using_concat(a1, a2)
-  a1.concat
+  a1.concat(a2)
 end
 
-def using_insert
+def using_insert(arr, s)
   
 end
 
