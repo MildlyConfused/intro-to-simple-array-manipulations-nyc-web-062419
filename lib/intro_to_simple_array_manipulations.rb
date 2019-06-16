@@ -23,7 +23,7 @@ def shift_with_args(arr, x)
 end
 
 def using_concat(a1, a2)
-  
+  a1.concat
 end
 
 def using_insert
