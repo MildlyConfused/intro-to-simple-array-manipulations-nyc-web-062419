@@ -1,28 +1,28 @@
 def using_push(arr, s)
-  
+  arr.push(s)
 end
 
-def using_unshift
-  
+def using_unshift(arr, s)
+  arr.unshift(s)
 end
 
-def using_pop
-  
+def using_pop(arr)
+  arr.pop
 end
 
-def pop_with_args
-  
+def pop_with_args(arr, x)
+  arr.pop(x)
 end
 
-def using_shift 
-  
+def using_shift(arr)
+  arr.shift
 end
 
-def shift_with_args
-  
+def shift_with_args(arr, x)
+  arr.shift(x)
 end
 
-def using_concat
+def using_concat(a1, a2)
   
 end
 
