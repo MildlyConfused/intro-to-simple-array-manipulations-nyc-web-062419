@@ -10,16 +10,16 @@ def using_pop(arr)
   arr.pop
 end
 
-def pop_with_args(arr, x)
-  arr.pop(x)
+def pop_with_args(arr)
+  arr.pop(2)
 end
 
 def using_shift(arr)
   arr.shift
 end
 
-def shift_with_args(arr, x)
-  arr.shift(x)
+def shift_with_args(arr)
+  arr.shift(2)
 end
 
 def using_concat(a1, a2)
